@@ -1,0 +1,11 @@
+-- Install configuration: "Release"
+-- Installing: /usr/lib/x86_64-linux-gnu/libhyprlang.so.0.4.1
+-- Installing: /usr/lib/x86_64-linux-gnu/libhyprlang.so.1
+-- Installing: /usr/lib/x86_64-linux-gnu/libhyprlang.so
+-- Installing: /usr/include/hyprlang.hpp
+-- Up-to-date: /usr/lib/x86_64-linux-gnu/libhyprlang.so.0.4.1
+-- Up-to-date: /usr/lib/x86_64-linux-gnu/libhyprlang.so.1
+-- Up-to-date: /usr/lib/x86_64-linux-gnu/libhyprlang.so
+-- Up-to-date: /usr/include/hyprlang.hpp
+-- Installing: /usr/lib/x86_64-linux-gnu/pkgconfig/hyprlang.pc
+[32m[OK](B[m hyprlang installed successfully.

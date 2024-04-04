@@ -1,0 +1,9 @@
+From https://github.com/Horus645/swww
+ * branch            main       -> FETCH_HEAD
+Already up-to-date.
+   Compiling swww v0.8.2-master (/home/teiyou/Downloads/Debian-Hyprland/swww)
+warning: swww@0.8.2-master: generated shell completion file: "completions/swww.bash"
+warning: swww@0.8.2-master: generated shell completion file: "completions/_swww"
+warning: swww@0.8.2-master: generated shell completion file: "completions/swww.fish"
+warning: swww@0.8.2-master: generated shell completion file: "completions/swww.elv"
+    Finished release [optimized] target(s) in 31.19s

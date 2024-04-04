@@ -1,0 +1,42 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libqt5qmlworkerscript5 qml-module-qtquick2
+Suggested packages:
+  libpam-kwallet5 qtvirtualkeyboard-plugin
+Recommended packages:
+  sddm-theme-debian-breeze | sddm-theme
+The following NEW packages will be installed
+  libqt5qmlworkerscript5 qml-module-qtquick2 sddm
+0 to upgrade, 3 to newly install, 0 to remove and 1 not to upgrade.
+Need to get 725 kB of archives.
+After this operation, 2,227 kB of additional disk space will be used.
+Get:1 http://cn.archive.ubuntu.com/ubuntu mantic/universe amd64 libqt5qmlworkerscript5 amd64 5.15.10+dfsg-2 [33.5 kB]
+Get:2 http://cn.archive.ubuntu.com/ubuntu mantic/universe amd64 qml-module-qtquick2 amd64 5.15.10+dfsg-2 [33.6 kB]
+Get:3 http://mirrors.tuna.tsinghua.edu.cn/ubuntu mantic/universe amd64 sddm amd64 0.20.0-1ubuntu1 [658 kB]
+Preconfiguring packages ...
+[?1049h[22;0;0t[1;24r[4l[?25l(B[m[37m[40m[1;24r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[4;2H[30m[47m┌───────────────────────────┤ [31mConfiguring sddm[30m ├────────────────────────────┐[5;2H│                                                                           │[97m[40m [6;2H[30m[47m│ A display manager is a program that provides graphical login              │[97m[40m [7;2H[30m[47m│ capabilities for the X Window System.                                     │[97m[40m [8;2H[30m[47m│                                                                           │[97m[40m [9;2H[30m[47m│ Only one display manager can manage a given X server, but multiple        │[97m[40m [10;2H[30m[47m│ display manager packages are installed. Please select which display       │[97m[40m [11;2H[30m[47m│ manager should run by default.                                            │[97m[40m [12;2H[30m[47m│                                                                           │[97m[40m [13;2H[30m[47m│ Multiple display managers can run simultaneously if they are configured   │[97m[40m [14;2H[30m[47m│ to manage different servers; to achieve this, configure the display       │[97m[40m [15;2H[30m[47m│ managers accordingly, edit each of their init scripts in /etc/init.d,     │[97m[40m [16;2H[30m[47m│ and disable the check for a default display manager.                      │[97m[40m [17;2H[30m[47m│                                                                           │[97m[40m [18;2H[30m[47m│                                  [37m[41m<OK>[30m[47m                                     │[97m[40m [19;2H[30m[47m│                                                                           │[97m[40m [20;2H[30m[47m└───────────────────────────────────────────────────────────────────────────┘[97m[40m [21;3H                                                                             [18;38H

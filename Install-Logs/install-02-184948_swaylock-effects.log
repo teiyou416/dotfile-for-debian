@@ -1,0 +1,8 @@
+ninja: Entering directory `build'
+[0/1] Installing files.
+Installing swaylock to /usr/local/bin
+Installing swaylock.1 to /usr/local/share/man/man1
+Installing /home/teiyou/Downloads/Debian-Hyprland/swaylock-effects/pam/swaylock to /usr/local/etc/pam.d
+Installing /home/teiyou/Downloads/Debian-Hyprland/swaylock-effects/completions/zsh/_swaylock to /usr/local/share/zsh/site-functions
+Installing /home/teiyou/Downloads/Debian-Hyprland/swaylock-effects/completions/bash/swaylock to /usr/share/bash-completion/completions
+Installing /home/teiyou/Downloads/Debian-Hyprland/swaylock-effects/completions/fish/swaylock.fish to /usr/local/share/fish/vendor_completions.d

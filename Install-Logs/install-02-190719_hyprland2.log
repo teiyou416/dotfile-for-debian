@@ -1,0 +1,32 @@
+-en !NOTE: Please note make install does not compile Hyprland and only installs the already built files.
+mkdir -p /usr/local/share/wayland-sessions
+mkdir -p /usr/local/bin
+cp -f ./build/Hyprland /usr/local/bin
+cp -f ./build/hyprctl/hyprctl /usr/local/bin
+chmod 755 /usr/local/bin/Hyprland
+chmod 755 /usr/local/bin/hyprctl
+if [ ! -f /usr/local/share/wayland-sessions/hyprland.desktop ]; then cp ./example/hyprland.desktop /usr/local/share/wayland-sessions; fi
+mkdir -p /usr/local/share/hyprland
+cp ./assets/wall_* /usr/local/share/hyprland
+mkdir -p /usr/local/share/xdg-desktop-portal
+cp ./assets/hyprland-portals.conf /usr/local/share/xdg-desktop-portal
+mkdir -p /usr/local/share/man/man1
+install -m644 ./docs/*.1 /usr/local/share/man/man1
+mkdir -p /usr/local/lib/
+cp ./subprojects/wlroots/build/libwlroots.so.12032 /usr/local/lib/
+make installheaders
+make[1]: Entering directory '/home/teiyou/Downloads/Debian-Hyprland/Hyprland'
+mkdir -p /usr/local/include/hyprland
+mkdir -p /usr/local/include/hyprland/protocols
+mkdir -p /usr/local/include/hyprland/wlroots
+mkdir -p /usr/local/share/pkgconfig
+find src -name '*.h*' -print0 | cpio --quiet -0dump /usr/local/include/hyprland
+cd subprojects/wlroots/include && find . -name '*.h*' -print0 | cpio --quiet -0dump /usr/local/include/hyprland/wlroots && cd ../../..
+cd subprojects/wlroots/build/include && find . -name '*.h*' -print0 | cpio --quiet -0dump /usr/local/include/hyprland/wlroots && cd ../../../..
+cp ./protocols/*-protocol.h /usr/local/include/hyprland/protocols
+cp ./build/hyprland.pc /usr/local/share/pkgconfig
+if [ -d /usr/share/pkgconfig ]; then cp ./build/hyprland.pc /usr/share/pkgconfig 2>/dev/null || true; fi
+chmod -R 755 /usr/local/include/hyprland
+chmod 755 /usr/local/share/pkgconfig
+make[1]: Leaving directory '/home/teiyou/Downloads/Debian-Hyprland/Hyprland'
+[32m[OK](B[m Hyprland installed successfully.
